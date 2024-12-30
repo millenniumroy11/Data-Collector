@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the form is centered relative to the viewport height */
+    margin: 0; /* Removes default margin from body */
+    background-color: #13abe2; /* Optional: Adds a light background for better aesthetics */
+}
+
+form {
+    width: 60%;
+    max-width: 400px; /* Limits form width for better responsiveness */
+    border: 3px solid #73AD21;
+    padding: 20px;
+    background-color: #f4f0f0; /* Optional: Adds a white background for contrast */
+    border-radius: 8px; /* Optional: Rounds form corners for modern look */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}

@@ -1,0 +1,47 @@
+body{
+    background-color: #13abe2;
+}
+.navbar {
+    background-color: #00080bf6 !important;
+}
+
+.nav-link, .navbar-brand {
+    color: white !important;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: lightblue !important;
+}
+span{
+    color: aliceblue;
+}
+button.btn-outline-success {
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button.btn-outline-success:hover {
+    background-color: green;
+    color: white;
+}
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 18px;
+    display: none; /* Initially hidden */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #0056b3;
+}
+
